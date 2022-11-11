@@ -5,6 +5,7 @@ import Main from '../layouts/Main';
 
 import Personal from '../components/Stats/Personal';
 import Site from '../components/Stats/Site';
+import Quote from '../components/Stats/Quote';
 
 const Stats = () => (
   <Main
@@ -19,6 +20,7 @@ const Stats = () => (
       </header>
       <Personal />
       <Site />
+      <Quote />
     </article>
   </Main>
 );
